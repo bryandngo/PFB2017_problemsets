@@ -1,0 +1,297 @@
+    1  ls -l
+    2  ld -lt
+    3  cd
+    4  ls
+    5  ls -lt
+    6  q
+    7  ls -lt | head
+    8  date ; sleep 2 ; date 
+    9  man sleep 
+   10  man ls 
+   11  apropos path 
+   12  pwd
+   13  ls -F
+   14  ls
+   15  touch myfile
+   16  ls -F
+   17  rm myfile 
+   18  ls -f
+   19  ls -F
+   20  pwd
+   21  cd /Users
+   22  ls
+   23  mkdir problemsets
+   24  cd..
+   25  cd ..
+   26  cd ..
+   27  pwd
+   28  cd
+   29  pwd
+   30  cd .. 
+   31  mkdir problemsets
+   32  ls
+   33  ls -F
+   34  mkdir problemsets
+   35  pwd
+   36  cd
+   37  mkdir problemsets
+   38  ls
+   39  lf -F
+   40  ls -F
+   41  problemsets/
+   42  pwd
+   43  problemsets
+   44  cd problemsets
+   45  pwd
+   46  curl -O https://github.com/srobb1/pfb2017/blob/master/files/sequences.nt.fa
+   47  pwd
+   48  ls
+   49  wc sequences.nt.fa 
+   50  man head 
+   51  head sequences.nt.fa 
+   52  man head
+   53  man head 
+   54  man tail 
+   55  head sequences.nt.fa 
+   56  head -f sequences.nt.fa 
+   57  head -n sequences.nt.fa 
+   58  man head
+   59  curl O https://raw.githubusercontent.com/srobb1/pfb2017/master/files/sequences.nt.fa
+   60  pwd
+   61  ls
+   62  cd sequences.nt.fa 
+   63  ls 
+   64  pwd
+   65  ls 
+   66  cat sequences.nt.fa 
+   67  rm sequences.nt.fa 
+   68  pwd
+   69  ls
+   70  ls -F
+   71  cd problemsets
+   72  pwd
+   73  curl O https://raw.githubusercontent.com/srobb1/pfb2017/master/files/sequences.nt.fa
+   74  wc 
+   75  pwd
+   76  ls
+   77  ls -F
+   78  cd PFB2017_problemsets/
+   79  ls
+   80  rm git add git_exercises.txt 
+   81  ls -l 
+   82  rm git\ add\ git_exercises.txt 
+   83  ls
+   84  ls -f
+   85  ls -a 
+   86  nano git_exercises.txt
+   87  ls
+   88  less git_exercises.txt 
+   89  git add git_exercises.txt 
+   90  git commit -m 'added a line of text'
+   91  git push origin master 
+   92  git clone https://github.com/srobb1/pfb2017.git
+   93  ls
+   94  pwd
+   95  ls
+   96  ls -f
+   97  ls -F
+   98  cd PFB2017_problemsets/
+   99  ls
+  100  ll 
+  101  ls -a
+  102  git status
+  103  README.md
+  104  nano git_exercises.txt
+  105  pwd
+  106  ls
+  107  ls -f
+  108  ls -a 
+  109  ls -F
+  110  cd PFB2017_problemsets/
+  111  ..
+  112  pwd
+  113  cd ..
+  114  pwd
+  115  ls
+  116  cd problemsets/
+  117  pwd
+  118  mkdir BRYAN 
+  119  cd BRYAN
+  120  mkdir MIKE
+  121  ls
+  122  cd ~
+  123  pwd
+  124  pwd
+  125  ls
+  126  cd problemsets/BRYAN/MIKE/
+  127  cd ../../../problemsets/
+  128  pwd
+  129  ls-f
+  130  ls -f 
+  131  rm BRYAN/
+  132  man rm
+  133  rm -R BRYAN/
+  134  ls
+  135  curl -O https://raw.githubusercontent.com/srobb1/pfb2017/master/files/sequences.nt.fa
+  136  ls
+  137  wc sequences.nt.fa 
+  138  head sequences.nt.fa 
+  139  man head
+  140  head -n 1 sequences.nt.fa 
+  141  head man 
+  142  man head 
+  143  man tail
+  144  tail -n 3 sequences.nt.fa 
+  145  head -n 40 file1.txt | tail -n 2 > lines_39_40.txt
+  146  man grep
+  147  man cp
+  148  pwd
+  149  ls
+  150  less sequences.nt.fa 
+  151  less sequences.nt.fa 
+  152  grep mRNA
+  153  grep mRNA sequences.nt.fa 
+  154  grep mRNA sequences.nt.fa | wc 
+  155  grep '>' sequences.nt.fa 
+  156  grep '>' sequences.nt.fa | wc
+  157  man mv
+  158  mv sequences.nt.fa cancer_genes.fasta
+  159  ls
+  160  ls 
+  161  curl -O https://raw.githubusercontent.com/srobb1/pfb2017/master/files/cuffdiff.txt
+  162  ls
+  163  less cuffdiff.txt 
+  164  man sort
+  165  ls
+  166  less cuffdiff.txt 
+  167  less cuffdiff.txt 
+  168  less cuffdiff.txt 
+  169  man sort
+  170  man sort
+  171  sort -k 10 cuffdiff.txt 
+  172  man cut
+  173  cut -c 1 cuffdiff.txt 
+  174  cut -f 1 cuffdiff.txt 
+  175  cut -f 10 cuffdiff.txt 
+  176  sort -k 10 cuffdiff.txt | cut -f 10 
+  177  man sort
+  178  sort -k 10 -r cuffdiff.txt | cut -f 10 
+  179  sort -k 10 -r cuffdiff.txt > sorted.cuffdiff.out
+  180  ls
+  181  less sorted.cuffdiff.out 
+  182  less -S sorted.cuffdiff.out | column 
+  183  less -S sorted.cuffdiff.out | column -t
+  184  man sort
+  185  man column
+  186  owd
+  187  pwd
+  188  ls
+  189  rm lines_39_40.txt 
+  190  ls
+  191  rm cuffdiff.txt 
+  192  ls
+  193  rm sorted.cuffdiff.out 
+  194  ls
+  195  curl -O https://raw.githubusercontent.com/srobb1/pfb2017/master/files/cuffdiff.txt
+  196  ls
+  197  less cuffdiff.txt
+  198  q
+  199  less cuffdiff.txt 
+  200  column -t cuffdiff.txt 
+  201  man sort
+  202  man sort
+  203  sort -k 10 -n 
+  204  sort -k 10 -n cuffdiff.txt 
+  205  ls
+  206  less cuffdiff.txt 
+  207  less -S cuffdiff.txt 
+  208  less -S cuffdiff.txt | column -t
+  209  sort man
+  210  man sort
+  211  man print
+  212  man sort
+  213  sort 
+  214  man cut
+  215  cut -f10 cuffdiff.txt 
+  216  sort -k 10n cuffdiff.txt | cut -f10 
+  217  sort -k 10n cuffdiff.txt | cut -f10 > sorted.cuffidff.out 
+  218  less sorted.cuffidff.out 
+  219  head 100
+  220  head 100 sorted.cuffidff.out 
+  221  head -100 sorted.cuffidff.out 
+  222  tail -100 sorted.cuffidff.out 
+  223  tail -100 sorted.cuffidff.out > top100.sorted.cuffdiff.out
+  224  ls
+  225  less top100.sorted.cuffdiff.out 
+  226  less sorted.cuffidff.out 
+  227  less cuffdiff.txt 
+  228  sort -K10g -r cuffdiff.txt | cut -1 | head -100  > differentially.expressed.genes.txt
+  229  sort -K10g -r cuffdiff.txt | cut -f1 | head -100  > differentially.expressed.genes.txt
+  230  sort -k10g -r cuffdiff.txt | cut -f1 | head -100  > differentially.expressed.genes.txt
+  231  ls
+  232  less differentially.expressed.genes.txt 
+  233  man uniq
+  234  man uniq
+  235  sort differentially.expressed.genes.txt 
+  236  sort differentially.expressed.genes.txt | uniq > sorted.differentially.expressed.genes.txt
+  237  ls
+  238  less sorted.differentially.expressed.genes.txt 
+  239  pwd
+  240  ls
+  241  ..~
+  242  ~
+  243  pwd
+  244  /~
+  245  pwd
+  246  cd ~ 
+  247  pwd
+  248  ls
+  249  cd PFB2017_problemsets/
+  250  ls
+  251  mv ../problemsets/sorted.differentially.expressed.genes.txt .
+  252  ls
+  253  git add sorted.differentially.expressed.genes.txt 
+  254  git commit -m 'sorted.unix.problem.set.1'
+  255  git push
+  256  cd
+  257  ls
+  258  cd PFB2017_problemsets/
+  259  ls
+  260  nano mysequences.txt
+  261  git add mysequences.txt 
+  262  git commit -m 'mysequences.txt'
+  263  git push
+  264  mkdir fastas
+  265  ls
+  266  cd FILES/
+  267  ls
+  268  cp cancer_genes.fasta ../fastas/
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd fastas/
+  273  ls
+  274  cd ..
+  275  cd FILES/
+  276  rm cancer_genes.fasta 
+  277  ls
+  278  cd ~ 
+  279  ls
+  280  cd PFB2017_problemsets/
+  281  git add all*
+  282  git add all 
+  283  git add all ../PFB2017_problemsets/
+  284  git add README.md 
+  285  git add git_exercises.txt 
+  286  git add FILES/
+  287  git add fastas/
+  288  git add mysequences.txt 
+  289  git commit -m 'git.add.all'
+  290  git push 
+  291  history > unixbasics.history.txt
+  292  ls
+  293  history > unixbasics.history.txt
+  294  ls
+  295  nano
+  296  history
+  297  history > unixbasics.history.txt 
