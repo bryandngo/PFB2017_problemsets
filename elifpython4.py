@@ -12,7 +12,8 @@ elif count == 50:
 	message = "is 50"
 	print (count, message)
 
-elif count > 50 and count/3 == int:
+elif count > 50 and count/3 == int:				#does not work bc int is processed as a variable
+
 	message = "is greater than 50 and is divisible by 3"
 	print (count, message)
 

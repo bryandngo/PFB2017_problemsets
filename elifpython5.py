@@ -8,6 +8,10 @@ if count == 0:
         message = "is 0"
         print(count, message)
 
+elif count < 0:
+	message = "is negative"
+	print (count, message)
+
 elif count == 50:
         message = "is 50"
         print (count, message)
