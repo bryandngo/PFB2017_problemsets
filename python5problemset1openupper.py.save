@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+file_read = open("/Users/admin/Python5ProblemSet/Python_05.txt", "r")
+file_write = open("/Users/admin/Python5ProblemSet/Python_05_write.txt","w")
+contents = file_object.read()
+variable = contents.upper()
+
+
+file_read.close()
+file_write.close()
+
+print(variable,"File was Opened and Modified on 10-19-17")
+
+
+
