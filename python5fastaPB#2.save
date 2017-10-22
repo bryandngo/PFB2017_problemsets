@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+import sys
+
+sequence = ' '
+
+fasta = {}
+
+with open("/Users/admin/Python5ProblemSet/Python_05.fasta") as file_one:
+	file_one_content = file_one.read()
+	for line in file_one_content.strip():
+			continue 
+		if line.startswith(">"):
+			sequence_name = line.rstrip('\n').replace(">",'')
+		else:
+			sequence = line.rstrip('\n')
+		if sequence_name not in fasta:
+			fasta[sequence_name] = []
+		fasta[sequence_name].append(sequence)
+
+fasta.close()
+print(fasta)

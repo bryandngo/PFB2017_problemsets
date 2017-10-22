@@ -1,0 +1,14 @@
+#!usr/bin/env python3
+
+import sys
+
+DNA_sequence = sys.argv[1]
+
+DNA_sequence_reverse = DNA_sequence[::-1]
+
+for i in DNA_sequence:
+	if (i == "A"): print ("T")
+	if (i == "T"): print ("A")
+	if (i == "C"): print ("G")
+	if (i == "G"): print ("C")
+
